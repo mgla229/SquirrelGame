@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Blank Template",
+    "slug": "protoType",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "landscape",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true
+    },
+    "androidNavigationBar": {
+      "visible": false
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "\"Squirrel Game\"",
+  "name": "SquirrelGame"
+}
